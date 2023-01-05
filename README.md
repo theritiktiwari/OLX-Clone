@@ -32,7 +32,7 @@ This is a clone of the OLX website.
 - Run `yarn start` OR `npm start` to start the server.
 - Server will be running on `http://127.0.0.1:3000/`.
 
-### Dummy Credentials
+## Credentials
 **Admin Credentials**
 - Email: admin@olx.com
 - Password: admin@123
