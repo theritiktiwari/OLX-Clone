@@ -64,7 +64,7 @@ router.post('/all', fetchUser, async (req, res) => {
         // Get the purchases 
         let purchase;
         if (req.user.role !== "admin") {
-            purchase = await Purchase.find({ user_id: req.user.id });
+            purchase = await Purchase.find({ buyer_id: req.user.id });
         } else {
             purchase = await Purchase.find();
         }
